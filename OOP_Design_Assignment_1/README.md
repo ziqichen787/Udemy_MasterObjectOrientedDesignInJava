@@ -6,4 +6,4 @@ the responsibility provided by the software/application, and that the responsibi
 module or function.
 
 
-![](images/UML_Diagram_Single_Responsibility.png)
+![](/images/UML_Diagram_Single_Responsibility.png)
