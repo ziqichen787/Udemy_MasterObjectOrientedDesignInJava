@@ -1,6 +1,6 @@
 package lesson_5_fixed;
 
-abstract public class Employee {
+public abstract class Employee {
 	
 	private int id;
 	private String name;
