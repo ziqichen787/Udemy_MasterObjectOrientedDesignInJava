@@ -7,9 +7,9 @@ This folder contains the tutorial exercise I have done while I was takking the U
   
 - OOP_Design    
   This project implements __Open Closed Principle__
-  - src
-    - lesson_5
-    - lesson_5_fixed
 
-- OOP_Design_6    
+- OOP_Design_6        
   This project implements the __Dependency Inversion Principle__.
+
+- OOP_Design_7    
+  This project implements the __Liskov Substitution Principle__.
