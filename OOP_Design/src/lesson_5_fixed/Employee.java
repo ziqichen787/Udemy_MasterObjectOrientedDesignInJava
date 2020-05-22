@@ -22,9 +22,5 @@ public abstract class Employee {
 		return "Employee [id=" + id + ", name=" + name + ", departmentString=" + departmentString + ", working="
 				+ working + "]";
 	}
-	
-	
-	
-	
 
 }
