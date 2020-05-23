@@ -17,7 +17,7 @@ This folder contains the tutorial exercise I have done while I was takking the U
 - OOP_Design_8    
   This project implements the __Interface Segregation Principle__.    
 
-- OOP_Design_9
+- OOP_Design_9    
   This project implements the __Dependency Injection__.    
 
 - OOP_Design_10    
