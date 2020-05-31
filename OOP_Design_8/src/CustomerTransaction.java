@@ -7,7 +7,6 @@ public class CustomerTransaction implements Accounting, Reporting {
 	private Customer customer;
 	
 	
-	
 	public CustomerTransaction(List<Product> products, Customer customer) {
 		this.products = products;
 		this.customer = customer;
