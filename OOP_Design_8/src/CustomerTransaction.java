@@ -1,24 +1,45 @@
+import java.util.List;
 import java.util.Date;
 
-public class CustomerTransaction {
+public class CustomerTransaction implements Accounting, Reporting {
 	
+	private List<Product> products;
+	private Customer customer;
+	
+	
+	
+	public CustomerTransaction(List<Product> products, Customer customer) {
+		this.products = products;
+		this.customer = customer;
+	}
+
+	@Override
 	public String getName() {
-		return "name...";
+		return customer.getName();
+		
 	}
 	
+	@Override
 	public Date getDate() {
 		return new Date();
 	}
 	
+	@Override
 	public String getProductBreakdown() {
-		return "list of products for reporting...";
+		String reportListingString = null;
+		for(Product product: products) {
+			reportListingString += product.getProductName();
+		}
+		return reportListingString;
 	}
 	
-	public String prepareInvoice() {
-		return "this is the receipt...";
+
+	public void prepareInvoice() {
+		System.out.println("this is the receipt...");
 	}
 	
-	public String chargeCustomer() {
-		return "charge the customer...";
+	
+	public void chargeCustomer() {
+		System.out.println("charge the customer...");
 	}
 }
