@@ -2,6 +2,8 @@
 
 This folder contains the tutorial exercise I have done while I was takking the Udemy class -- Master Object Oriented Design in Java
 
+
+#### OOD Principles (SOLID)
 - OOP_Design_Assignment    
   This project implements the __Single Responsibility Principle__.    
   
@@ -17,6 +19,8 @@ This folder contains the tutorial exercise I have done while I was takking the U
 - OOP_Design_8    
   This project implements the __Interface Segregation Principle__.    
 
+
+#### OOD Patterns 
 - OOP_Design_9    
   This project implements the __Dependency Injection__.    
 
